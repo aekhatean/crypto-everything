@@ -1,3 +1,21 @@
+Crypto Everything is React.js web app that consumes different APIs from RapidAPI such as Coinranking and Bing News Search to display information about different cryptocurrencies in the market right now, such currency price over time, current exchange rate, and general information about the coin itself, etc.
+
+This project utilizes React.js, Redux, Redux toolkit, ant design, chart2.js, axios, html react parser, moment, and millify.
+
+To launch the project on your local machine, simply clone it, then run the command:
+
+```
+npm i
+```
+
+then after it finishes loading run the command:
+
+```
+npm start
+```
+
+**_More information on React.js apps:_**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
