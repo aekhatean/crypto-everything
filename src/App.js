@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import { Layout, Typography, Space } from "antd";
-import { Navbar } from "./components";
+import { ResponsiveNavbar } from "./components";
 import {
   Exchanges,
   HomePage,
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App" style={{ display: "flex", flexDirection: "row" }}>
       <div className="navbar">
-        <Navbar />
+        <ResponsiveNavbar />
       </div>
       <div className="main">
         <Layout>

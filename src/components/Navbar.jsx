@@ -21,6 +21,7 @@ const Navbar = () => {
     window.addEventListener("resize", handleResize);
 
     handleResize();
+    console.log(handleResize());
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
