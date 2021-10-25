@@ -51,7 +51,7 @@ const Exchanges = () => {
                 }
               >
                 {HTMLReactParser(
-                  exchange.description || "This coin has no discription."
+                  exchange.description || "<i>This coin has no discription.</i>"
                 )}
               </Panel>
             </Collapse>
